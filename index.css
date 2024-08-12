@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} 
+body{
+    background-image: url(imgloin.jpeg);
+    height: 100vh;
+    max-width: 100vwh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+
+
+
+
+
+
+ 
+.flex-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.account {
+    
+    background-color: rgba(255, 255, 255, 0.336);
+
+    border: 2px solid rgba (255, 255, 255, -30);
+ 
+width: 400px;
+  
+    backdrop-filter: blur(-10px);
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+   
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+
+}
+
+input[type=text] {
+    width: 85%;
+    padding: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.336);
+    backdrop-filter: blur(-10px);
+    border: none;
+    border-radius: 4px;
+    outline: none;
+
+}
+input[type=password] {
+    width: 85%;
+    padding: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.336);
+    backdrop-filter: blur(-10px);
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+button {
+    width: 85%;
+    padding: 0.75rem;
+    border: none;
+    background-color: rgba(2, 11, 45, 0.881);
+    color: white;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: rgba(25, 37, 81, 0.881);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.remember-forgot label input {
+    accent-color: red;
+    margin-right: 6px;
+    margin-left: 6px;
+
+}
+
+.remember-forgot {
+    justify-content: space-between;
+    margin: -15px 0 15px;
+    display: flex;
+    font-weight: 500;
+    font-size: -5rem;
+    padding-top: 20px;
+    padding-bottom:20px ;
+}
